@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import TextField from '@mui/material/TextField'
+import { React } from "react";
+import CardAction from './components/CardAction'
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='appears-1'>Encontre Quem Você Procura.</h1>
+      <div className="search appears-2">
+        <TextField
+          id="outlined-basic"
+          fullWidth
+          label="Pesquisar por doutores, estudantes..."
+          InputLabelProps={{
+            style: {
+              textOverflow: 'ellipsis',
+              fontSize: '18px',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              width: '100%',
+              color: 'white'
+            } }} 
+        />
+      </div>
+      <div className="appears-3">
+        <CardAction />
+      </div>
     </div>
   );
 }

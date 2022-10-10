@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Primeiro projeto oficial com React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+322353
 
-## Available Scripts
+# Anotações do Curso de UI
 
-In the project directory, you can run:
+## Definição
 
-### `npm start`
+É a áre aque estuda o meio pelo qual uma pessoa interage ou controla um dispositivo, software ou aplicativo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## O que é uma interface?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Interface é um meio de comunicação entre dois sistemas ou grupos.
 
-### `npm test`
+A interface, por exemplo, é o meio pelo qual o usuário interage ou se comunica com um sistema para realizar tarefas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## GUI - Graphical User Interface
 
-### `npm run build`
+GUI é basicamente a interface gráfica de um sistema que normalmente contém botões, caixas de texto, imagens etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A interação pode ser feita através de elementos que forneçam ações entre o dispositivo e o usuário, como por exemplo, botões, links, menus e qualquer outro elemento que permita uma interação entre o dispositivo e o usuário.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Estilos de UI Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Skeumorfismo
 
-### `npm run eject`
+Trata-se de um estilo que faz referência aos objetos reais no meio digital/gráfico.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Utiliza-se muito de artifícios como texturas, sombras, gradientes, proporções, entre outros; para simular os objetos do nosso cotidiano.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Flat Design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Flat Design significa "Design Plano". Trata-se de um estilo minimalistas, que utiliza cores e formas chapadas, com poucos (ou quase sem) efeitos de volume, sombras, texturas e etc. (faz analogias através das formas).
+ 
+A popularização desse estilo de Design está relacionada à familiarização dos usuários a interfaces gráficas de dispositivos eletrônicos. Não se faz mais necessário criar estilos que remontem integralmente objetos do mundo real, pois nos acostumamos com como objetos (botões, por exemplo) aparecem em meios digitais.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Guia de Estilo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+É semelhante a um manual de marca, mas voltado para interfaces. Trata-se de arquivos que contém toda a informação visual do projeto como paleta de cores, tipografia, forma, exemplos de uso, etc.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ele ajuda a garantir a identidade visual do projeto, definindo as diretrizes do projeto para que ele tenha uma consistência e uniformidade visual.
 
-### Code Splitting
+# Principais ferramentas de UI Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Sketch App (Software para MAC, não gratuito)
+- Adobe XD (Funciona para Windows, tem uma versão gratuita)
+- InVision | InVision Studio
+- Figma
+- Photoshop
 
-### Analyzing the Bundle Size
+## Dicas de Boas Práticas de UI Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
