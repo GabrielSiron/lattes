@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Signup.css';
-import gov from '../assets/img/gov.png';
 
 const Signup = () => {
     return (
