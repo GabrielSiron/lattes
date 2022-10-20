@@ -1,0 +1,107 @@
+.Screen {
+  position: relative;
+  background: #111A67;
+  height: 100vh !important;
+  
+}
+
+.CardLogin {
+  animation: show-element 1.2s alternate;
+  width: 380px;
+  border-radius: 10px;
+  height: 450px;
+  margin-left: calc(50% - 190px);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(to bottom, #8B9FEA 0%, #AEBFFF 100% ) !important;
+}
+
+h1 {
+  padding-left: 0px !important;
+  text-align: center;
+  color: #111A67 !important;
+}
+
+.Form {
+  width: 70%;
+  margin: 10px 15%;
+  
+}
+
+input {
+  padding-left: 12px;
+  width: calc(100% - 12px);
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+}
+
+h5 {
+  color: #111A67;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.Login:hover {
+  background-color: #0a3ad6c4;
+}
+.Login {
+  
+  height: 40px;
+  width: 60%;
+  margin: 10px 20%;
+  margin-top: 24px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0A3BD6;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+.SignUp {
+  height: 40px;
+  width: 60%;
+  margin: 16px 20%;
+  border-radius: 10px;
+  border: none;
+  color: #0A3BD6;
+  font-weight: bold;
+
+}
+
+hr {
+  margin: 4px 0px !important;
+  display: flex;
+  width: 40%;
+}
+
+img {
+  position: relative;
+  height: 16px;
+  width: auto;
+  padding: 0px !important;
+}
+
+@keyframes show-element {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
