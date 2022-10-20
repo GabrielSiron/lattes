@@ -1,17 +1,19 @@
 import './CardAction.css'
+import document from '../assets/img/new-document.png';
+import { Link } from 'react-router-dom';
 
 function CardAction() {
 
-    const url = "https://via.placeholder.com/100"
-
     return (
         <div className="card">
+            <Link to="/signup">
             <div className="title">
                 <span>Criar Curriculo</span>
             </div>
             <div className="icon">
-                <img src={url} alt="Imagem"/>
+                <img src={document} alt="Imagem"/>
             </div>
+            </Link>
         </div>
     )
 }
