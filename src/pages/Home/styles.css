@@ -1,5 +1,4 @@
 .App {
-  background: #111A67;
   height: 100vh !important;
 }
 
@@ -22,7 +21,23 @@
   padding-left: 15%;
 }
 
+h1 {
+  margin: 0px;
+  padding-left: 15% !important;
+  padding-top: 10%;
+  padding-bottom: 24px;
+  font-size: 40px;
+  text-align: start;
+}
 
+input {
+  height: 40px !important;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: #282c34;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,31 +51,6 @@
   align-items: center;
   flex-direction: column;
   row-gap: 20px;
-}
-
-h1 {
-  margin: 0px;
-  padding-left: 15%;
-  padding-top: 10%;
-  padding-bottom: 24px;
-  font-size: 40px;
-  color: rgb(1, 1, 59);
-}
-
-#outlined-basic {
-  border: none !important;
-  border-radius: 12px !important;
-  background: #111A67 !important;
-
-  
-}
-
-.css-yjsfm1 span {
-  color: #FFFFFF !important;
-}
-
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-  color: white !important;
 }
 
 .search {

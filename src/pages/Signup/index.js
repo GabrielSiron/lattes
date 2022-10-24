@@ -1,26 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Login.css';
+import './index.css';
 
-const Login = () => {
+const Signup = () => {
     return (
         <div className="Screen">
             <div className="CardLogin">
-                <h1>Login</h1>
+                <h1 className='title'>Cadastro</h1>
                 <div className="Form">
                     <h5>Email</h5>
-                    <input placeholder="gabriel@quickup.io"/>
+                    <input placeholder="gabriel@quickup.io" type="email"/>
+                    <h5>CPF</h5>
+                    <input placeholder="000.000.000-00"/>
                     <h5>Senha</h5>
                     <input placeholder="**********" type="password"/>
-                    <button className='Login'> Entrar </button>
+                    <button className='Login'> Criar Conta </button>
                     {/* <hr/>
                     <h6>ou</h6>
                     <hr/> */}
-                    <Link to="/signup"><button className='SignUp'> Criar Conta </button></Link>
+                    <Link to="/login"><button className='SignUp'> Fazer Login </button></Link>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Login;
+export default Signup;

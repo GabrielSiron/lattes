@@ -17,10 +17,10 @@
   background: linear-gradient(to bottom, #8B9FEA 0%, #AEBFFF 100% ) !important;
 }
 
-h1 {
+.title {
   padding-left: 0px !important;
   text-align: center;
-  color: #111A67 !important;
+  margin-top: 0px !important;
 }
 
 .Form {
